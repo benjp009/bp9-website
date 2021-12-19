@@ -1,7 +1,16 @@
 body {
   background-color: bisque;
+  margin: 0;
 }
 
 .hello {
   color: red;
+}
+
+@media only screen and (max-width: 600px) {
+  .navigation {
+    background-color: yellow;
+    position: absolute;
+    bottom: 0;
+  }
 }
