@@ -8,9 +8,47 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
-  .navigation {
+  /* .navigation {
     background-color: yellow;
     position: absolute;
     bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-evenly;
+  }*/
+
+  .navigation a {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: brown;
+    background-color: orange;
+    padding: 10px;
+    border-radius: 20px;
   }
+
+  .about {
+    position: absolute;
+    left: 0;
+    top: 10em;
+  }
+
+  .jobs {
+    position: absolute;
+    right: 0;
+    top: 10em;
+  }
+
+  .contact {
+    position: absolute;
+    left: 0;
+    top: 20em;
+  }
+
+  .more {
+    position: absolute;
+    right: 0;
+    top: 20em;
+  }
+
 }
